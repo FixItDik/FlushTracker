@@ -1,0 +1,35 @@
+﻿/* just classes for flushtracker and embedded objects */
+.flushtracker {
+font-family:Verdana,sans-serif;
+font-size:16px;
+    height: 100vh;
+
+    background-color: orange;
+    text-align:center;
+    }
+
+.flushtracker input[type=button] {
+/*display:block;
+width:100px;
+height:50px;
+margin:auto;
+*/
+font-size:2em;
+}
+
+.flushtracker table.ftHistory {
+    width:100%;
+}
+
+.flushtracker, .flushtracker h1 {margin:0;padding-top:20px;}
+
+.flushtracker #ftOptions {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: lime;
+    padding: 5px;
+    }
+
+.ftPopup select {margin: 10px 5px;}
